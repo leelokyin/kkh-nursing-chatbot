@@ -95,11 +95,11 @@ with right:
         "Steps for managing asthma attack"
     ])
  
-    quick_prompt_block("Quiz Questions", [
-        "Test me on health-related quizzes",
+    quick_prompt_block("Quiz Topics", [
+        "Test me on general health questions",
         "Test me 5 questions on diseases one by one",
         "Test me 5 questions on doctor treatments one by one",
-        "What is the normal HR for 5-year-old?",
+        "Test me on nutrition MCQ questions?",
         "Test me on dehydration",
         "Test me on signs of asthma attack",
         "Test me on the good source of dietary fibre?"
