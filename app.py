@@ -14,10 +14,9 @@ left, center, right = st.columns([1, 3, 1])
 # --- LEFT SIDEBAR ---
 with left:
     st.markdown("## 🧰 Controls")
-if st.button("🧹 Clear Model Cache"):
-    st.session_state.clear()
-    st.experimental_rerun()  # Optional: reruns the app to reflect cleared state
-
+    if st.button("🧹 Clear Model Cache"):
+        st.session_state.clear()
+        st.experimental_rerun()
  
 # --- CENTER HEADER ---
 with center:
